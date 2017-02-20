@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'quarkbold';
+    src: url('font/quark-bold-webfont.woff2') format('woff2'),
+         url('font/quark-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quarklight';
+    src: url('font/quark-light-webfont.woff2') format('woff2'),
+         url('font/quark-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h2 {
+    font-family: 'quarkbold';
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff;
+}
+p{
+    font-family: 'quarklight';
+}
+.top-header{
+    background-color: #F87;
+    text-align: center;
+}
+.table_01{
+    box-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
+    font-family: 'quarklight';
+
+}
+.text{
+    text-align: center;
+}
+.table_02{
+    box-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
+    font-family: 'quarklight';
+    width: 500px;
+    margin: auto;
+
+}
